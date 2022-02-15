@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div id="question-box" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+          <button class="btn">Answer 5</button>
+        </div>
+      </div>
+      <div class="commands">
+        <button id="begin-btn" class="begin-btn btn">
+          <b
+            >Read the situation carefully and answer the questions that
+            follow:</b
+          >
+          <br /><br />
+          Exactly six witnesses will testify in a trial: Mangione, Ramirez,
+          Sanderson, Tannenbaum, Ujemori, and Wong. <br />
+          <br />
+          The witnesses will testify one by one, and each only once. The order
+          in which the witnesses testify is subject to the following
+          constraints: <br /><br />
+          a) Sanderson must testify immediately before either Tannenbaum or
+          Ujemori. <br /><br />
+          b) Ujemori must testify earlier than both Ramirez and Wong. <br />
+          <br />
+          c) Either Tannenbaum or Wong must testify immediately before Mangione.
+        </button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
