@@ -1,13 +1,17 @@
 # LSATgame
-Code Quiz
-Purpose
-A website that offers a java script quiz.
 
-Built With
+#Purpose
+
+A website that offers users to participate in a Logic Games section from the LSATs
+
+#Built With
+
 HTML
 CSS
 JS
-Website
-]
 
-Contribution
+#Website
+
+
+
+#Contribution
